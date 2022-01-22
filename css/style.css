@@ -1,4 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 /* .header {
   background: #562eff;
   padding: 25px;
 } */
+
+.nav-search {
+  width: 300px;
+}
+
+.nav-search input {
+  background-color: #f1f1f1;
+  border: none;
+}
+.nav-search input:focus {
+  background-color: #f1f1f1;
+  color: rgb(204, 204, 204);
+  box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 0.5);
+}
+.nav-search input::placeholder {
+  color: #cccccc;
+}
+
+.nav-search svg {
+  color: #bababa;
+}
