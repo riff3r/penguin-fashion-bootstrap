@@ -9,6 +9,19 @@ body {
   padding: 25px;
 } */
 
+.bg-gray {
+  background-color: #f4f4f4;
+}
+.bg-yellow {
+  background: linear-gradient(180deg, #ff9c35, #ffd019);
+}
+.bg-pink {
+  background: linear-gradient(180deg, #ff589b, #ff136f);
+}
+.bg-blue {
+  background: linear-gradient(180deg, #4289ff, #3f07f8);
+}
+
 .nav-search {
   width: 300px;
 }
@@ -28,4 +41,28 @@ body {
 
 .nav-search svg {
   color: #bababa;
+}
+
+.slider .carousel-item {
+  background-color: #feeae9;
+}
+
+/* .slider .carousel-item a {
+} */
+
+.btn.btn-custom {
+  background: linear-gradient(180deg, #ff589b, #ff136f);
+  color: white;
+  padding: 15px 38px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.banner-price {
+  color: #ff136f;
+}
+
+.news-letter > div {
+  padding: 150px 0;
+  background-color: #feeae9;
 }
